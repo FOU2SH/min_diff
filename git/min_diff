@@ -1,0 +1,8 @@
+import random
+
+array = []
+array = random.sample(range(1, 100), 10)
+sorting=array.sort()
+min=array[0] - array[1]
+print (min)
+
